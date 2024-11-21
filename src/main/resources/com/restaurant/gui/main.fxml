@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+
+
+<TabPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.restaurant.gui.MainController">
+    <Tab text="Customers">
+        <fx:include source="customer.fxml"/>
+    </Tab>
+    <Tab text="Orders">
+        <fx:include source="order.fxml"/>
+    </Tab>
+    <Tab text="Items">
+        <fx:include source="item.fxml"/>
+    </Tab>
+    <Tab text="Deliverymen">
+        <fx:include source="deliveryman.fxml"/>
+    </Tab>
+</TabPane>
